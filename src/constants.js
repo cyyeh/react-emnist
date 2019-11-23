@@ -1,0 +1,5 @@
+export const EXTRA_SMALL_DEVICES = 'only screen and (max-width: 600px)'
+export const SMALL_DEVICES = 'only screen and (min-width: 600px)'
+export const MEDIUM_DEVICES = 'only screen and (min-width: 768px)'
+export const LARGE_DEVICES = 'only screen and (min-width: 992px)'
+export const EXTRA_LARGE_DEVICES = 'only screen and (min-width: 1200px)'

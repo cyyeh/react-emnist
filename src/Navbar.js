@@ -21,7 +21,7 @@ const Navbar = () => {
 			<AppBar position="static">
 				<Toolbar>
 					<Typography variant="h6" className={classes.title}>
-						React EMNIST
+						React Mobilenet
 					</Typography>
 				</Toolbar>
 			</AppBar>
