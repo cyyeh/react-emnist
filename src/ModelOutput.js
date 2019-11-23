@@ -119,7 +119,7 @@ const OtherOutputsContainer = styled.div`
 `
 
 const ModelCard = styled(Card)`
-  width: 300px;
+  width: 200px;
   margin: 15px;
 `
 

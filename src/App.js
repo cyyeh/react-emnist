@@ -76,17 +76,13 @@ class App extends Component {
   }
 
   predictWrapper(element) {
-    console.log(element.src)
     this.predict(element, topClassesWithProbs => {
       this.setState({
         status: STATUS_PREDICTION_FINISHED,
-      }, () => {
-        this.setState({
-          predictions: [{
-            imgElement: element,
-            topClassesWithProbs,
-          }, ...this.state.predictions]
-        })
+        predictions: [{
+          imgElement: element,
+          topClassesWithProbs,
+        }, ...this.state.predictions]
       })
     })
   }
